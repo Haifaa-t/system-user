@@ -86,7 +86,7 @@ const UserDetails = () => {
         </div>
 
         <div className="space-y-8">
-          {/* Posts Section */}
+    
           <section>
             <div className="flex items-center gap-2 mb-2">
               <StickyNote className="w-5 h-5 text-red-500" />
@@ -105,7 +105,7 @@ const UserDetails = () => {
             </Link>
           </section>
 
-          {/* Albums Section */}
+       
           <section>
             <div className="flex items-center gap-2 mb-2">
               <Image className="w-5 h-5 text-yellow-500" />
@@ -115,18 +115,19 @@ const UserDetails = () => {
               {albums.slice(0, 3).map((album) => (
                 <li key={album.id}>
                   <p>{album.title}</p>
-                  <Link
-                    to={`/photos?albumId=${album.id}`}
-                    className="mt-1 inline-block text-blue-600 hover:underline text-sm"
-                  >
-                    View photos
-                  </Link>
+                 <Link
+  to={`/photos?albumId=${album.id}`}
+  className="ml-2 text-[#d90f1c] hover:underline text-sm"
+>
+  View photos
+</Link>
+
                 </li>
               ))}
             </ul>
           </section>
 
-          {/* Todos Section */}
+     
           <section>
             <div className="flex items-center gap-2 mb-2">
               <CheckCircle className="w-5 h-5 text-green-600" />
