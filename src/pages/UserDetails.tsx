@@ -97,12 +97,13 @@ const UserDetails = () => {
                 <li key={post.id}>{post.title}</li>
               ))}
             </ul>
-            <Link
-              to={`/posts?userId=${id}`}
-              className="mt-3 inline-block text-sm text-blue-600 hover:underline"
-            >
-              View all posts
-            </Link>
+           <Link
+  to={`/posts?userId=${userId}`}
+  className="text-[#d90f1c] hover:underline mt-2 inline-block"
+>
+  View all posts
+</Link>
+
           </section>
 
        
@@ -151,7 +152,7 @@ const UserDetails = () => {
         <div className="mt-10">
           <Link
             to="/users"
-            className="inline-flex items-center gap-2 text-sm text-gray-700 hover:text-red-600 transition"
+            className="inline-flex items-center gap-2 text-sm text-[#d90f1c] hover:underline transition"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Users
