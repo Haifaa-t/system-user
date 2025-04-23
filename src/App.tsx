@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white text-[#4D4D4F]">
-      {/* إذا تبين الهيدر يطلع في كل الصفحات، احذفي !isHomePage */}
+     
       {!isHomePage && <Header />}
 
       <main className="flex-1">
