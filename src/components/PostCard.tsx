@@ -1,4 +1,4 @@
-// src/components/PostCard.tsx
+
 
 type Props = {
   title: string;
