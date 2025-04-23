@@ -23,7 +23,7 @@ const Users = () => {
   return (
     <div className="min-h-screen bg-[#f7f7f7] py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-2xl font-bold text-[#d90f1c] mb-6 text-center">Our Users</h1>
+      
 
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {users.map((user) => (
