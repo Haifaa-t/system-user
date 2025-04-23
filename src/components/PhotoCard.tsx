@@ -1,4 +1,3 @@
-// src/components/PhotoCard.tsx
 
 type Props = {
   title: string;
